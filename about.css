@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box ;
+        font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #F2FEFF;
+}
+
+.heading{
+width:90%;
+display :flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+margin:20px auto;
+}
+
+.heading h1{
+font-size:50px;
+color:#000;
+margin-bottom:25px;
+position:relative;
+}
+
+.heading h4{
+font-size:18px;
+color:#666;
+margin-bottom:35px;
+}
+
+.container{
+
+width:99%;
+margin:10 px;
+padding:10px 20px;
+}
+.about{
+display :flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+margin-bottom:15px;
+}
+
+.about-content p{
+font-size:16px;
+color:#666;
+width:30%;
+justify-items: center;
+margin:0 auto;
+width:1000px;
+}
